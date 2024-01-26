@@ -25,9 +25,9 @@ public class PersonasDao {
     public String edad;
 
 
-    public List obtenerPersonas(){
+    public ArrayList obtenerPersonas(){
 
-        List<Personas> listpersonas = new ArrayList<>();
+        ArrayList<Personas> listpersonas = new ArrayList<>();
         String query = "SELECT *FROM registropersonas";
 
         try{
